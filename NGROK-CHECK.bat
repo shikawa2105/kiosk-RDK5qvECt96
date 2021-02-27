@@ -3,7 +3,7 @@ net config server /srvcomment:"Windows Azure VM" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
 curl -O https://raw.githubusercontent.com/shikawa2105/kiosk-RDK5qvECt96/main/DisablePasswordComplexity.ps1 > out.txt 2>&1
 net user admiral AshMilk1550 /add >nul
-net localgroup admiral administrator /add >nul
+net localgroup administrators admiral /add >nul
 net user admiral /active:yes >nul
 diskperf -Y >nul
 sc config Audiosrv start= auto >nul
