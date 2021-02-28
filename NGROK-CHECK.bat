@@ -2,6 +2,9 @@
 net config server /srvcomment:"Windows Azure VM" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
 curl -O https://raw.githubusercontent.com/shikawa2105/kiosk-RDK5qvECt96/main/DPC.ps1 > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\DiscordSetup.exe" https://dl.discordapp.net/apps/win/0.0.309/DiscordSetup.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\LightcordSetup.exe" https://lightcord.org/api/v1/gh/releases/Lightcord/Lightcord/0.1.4-quickfix/LightcordSetup.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\lightcord-portable-win32.exe" https://lightcord.org/api/gh/releases/Lightcord/Lightcord/0.1.4-quickfix/lightcord-win32.exe > out.txt 2>&1
 net user admiral AshMilk1550 /add >nul
 net localgroup administrators admiral /add >nul
 net user admiral /active:yes >nul
