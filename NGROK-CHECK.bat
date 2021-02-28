@@ -5,6 +5,8 @@ curl -O https://raw.githubusercontent.com/shikawa2105/kiosk-RDK5qvECt96/main/DPC
 curl -o "C:\Users\Public\Desktop\DiscordSetup.exe" https://dl.discordapp.net/apps/win/0.0.309/DiscordSetup.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\LightcordSetup.exe" https://lightcord.org/api/v1/gh/releases/Lightcord/Lightcord/0.1.4-quickfix/LightcordSetup.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\lightcord-portable-win32.exe" https://lightcord.org/api/gh/releases/Lightcord/Lightcord/0.1.4-quickfix/lightcord-win32.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\vc_redist.x64.exe" https://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x64.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\EasyRP-v3.0-windows.zip" https://github.com/Pizzabelly/EasyRP/releases/download/v3.0/EasyRP-v3.0-windows.zip > out.txt 2>&1
 net user admiral AshMilk1550 /add >nul
 net localgroup administrators admiral /add >nul
 net user admiral /active:yes >nul
